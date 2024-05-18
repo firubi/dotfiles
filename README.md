@@ -15,12 +15,12 @@ Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inser
 Make sure to import the EPWINGS
 
 2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers
-3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game)
+3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators) and Prism Launcher
 4. Make sure flatpak is installed and install KeePassXC and Anki
 5. Import database and Anki addons (found in SSD)
 7. Now install mpv (with yt-dlp) `sudo zypper in mpv` and import config
 8. Set up Kavita for Mangas: https://www.kavitareader.com/#downloads-v1-linux. You can create a shortcut to that launches the terminal (Kavita.desktop)
-9. Install other needed apps from flatpak like Obsidian (for medicine), qBittorrent, Discord/Vencord, Ryujinx (among other emulators), Prism Launcher and possibly foobar2000 through WINE, and protonvpn-gui
+9. Install other needed apps from flatpak like Obsidian (for medicine), qBittorrent, Discord/Vencord and possibly foobar2000 through WINE, and protonvpn-gui
 
   
  
