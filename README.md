@@ -17,7 +17,7 @@ Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inser
 Make sure to import the EPWINGS and optionally the stylesheet to fit with KDE Plasma's Breeze theme (straight up used ChatGPT).
 
 2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers. Run `zypper addrepo --refresh https://download.nvidia.com/opensuse/tumbleweed NVIDIA` and then `sudo zypper install-new-recommends --repo NVIDIA`
-3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators) and Prism Launcher and also ProtonQT-up for proton-ge
+3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators) and Prism Launcher and also ProtonUp-Qt for proton-ge
 4. Make sure flatpak is installed and install KeePassXC and Anki
 5. Import database and Anki addons (found in SSD)
 7. Now install mpv (with yt-dlp) `sudo zypper in mpv` and import config
