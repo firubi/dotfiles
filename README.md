@@ -8,4 +8,5 @@ Pick the default KDE desktop environment. In the software selection, remove KDE 
 1. You'll need to enter tty (alternatively YaST) and install your preferred terminal emulator, etc:
      
 `sudo zypper in --no-recommends alacritty fastfetch`
+
 2. For nVidia users (me), install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers
