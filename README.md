@@ -1,7 +1,7 @@
 ### Minimal install of openSUSE ###
 Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC and VLC. After installation, run:
 
-`sudo zypper rm -u icewm xterm plasma6-desktop-emojier`
+`sudo zypper rm -u icewm xterm plasma6-desktop-emojier opensuse-welcome`
  
 
 ### Setting up Firefox ###
@@ -14,7 +14,7 @@ Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inser
 
 Make sure to import the EPWINGS
 
-2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers
+2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers. Run `zypper addrepo --refresh https://download.nvidia.com/opensuse/tumbleweed NVIDIA` and then `sudo zypper install-new-recommends --repo NVIDIA`
 3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators) and Prism Launcher
 4. Make sure flatpak is installed and install KeePassXC and Anki
 5. Import database and Anki addons (found in SSD)
