@@ -17,7 +17,10 @@ Make sure to import the EPWINGS
 5. Import database and Anki addons (found in SSD)
 7. Now install mpv (with yt-dlp) `sudo zypper in mpv` and import config
 8. Set up Kavita for Mangas: https://www.kavitareader.com/#downloads-v1-linux. You can create a shortcut to that launches the terminal (Kavita.desktop)
-9. Install other needed apps from flatpak like Obsidian, qBittorrent, Discord/Vencord and possibly foobar2000 through WINE
+9. Install other needed apps from flatpak like Obsidian (for medicine), qBittorrent, Discord/Vencord and possibly foobar2000 through WINE, and protonvpn-gui
 
 ### Setting up audio server for Anki ###
 https://github.com/themoeway/local-audio-yomichan
+
+### DONE
+Install your games, themes, customizations, whatever. 
