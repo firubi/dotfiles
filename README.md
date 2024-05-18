@@ -2,7 +2,9 @@
 Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC and VLC. After installation, run:
 
 `sudo zypper rm -u icewm xterm plasma6-desktop-emojier opensuse-welcome`
- 
+
+
+ You can uncheck the "install recommended packages" but you'll lose a lot of functionality in plasma.
 
 ### Setting up Firefox and input methods ###
 Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol). For japanese, you need to install the necessary fonts: `sudo zypper in google-noto-sans-jp-fonts`. You'll need fcitx5 as well so run `sudo zypper in --no-recommends fcitx5 fcitx5-mozc kcm_fcitx5 fcitx5-configtool` and change the virtual keyboard in KDE system settings.
