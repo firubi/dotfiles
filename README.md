@@ -21,7 +21,7 @@ Make sure to import the EPWINGS
 4. Make sure flatpak is installed and install KeePassXC and Anki
 5. Import database and Anki addons (found in SSD)
 7. Now install mpv (with yt-dlp) `sudo zypper in mpv` and import config
-8. Set up Kavita for Mangas: https://www.kavitareader.com/#downloads-v1-linux. You can create a shortcut to that launches the terminal (Kavita.desktop)
+8. Set up Kavita for Mangas: https://www.kavitareader.com/#downloads-v1-linux. You can create a shortcut too that launches the terminal (Kavita.desktop)
 9. Install other needed apps from flatpak like Obsidian (for medicine), qBittorrent, Discord/Vencord and possibly foobar2000 through WINE, and protonvpn-gui
 
   
