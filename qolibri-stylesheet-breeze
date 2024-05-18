@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    background-color: #1b1d1e; /* Darker Background */
+    color: #d3d7cf; /* Light Text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #252526; /* Darker Header Background */
+    padding: 10px 20px;
+    border-bottom: 1px solid #333; /* Divider */
+}
+
+header h1 {
+    color: #d3d7cf; /* Light Text */
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Search Bar */
+.search-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #444; /* Input Border */
+    border-radius: 5px;
+    background-color: #2b2b2b; /* Darker Input Background */
+    color: #d3d7cf; /* Light Text */
+}
+
+.search-container button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3daee9; /* Blue Accent */
+    color: #1b1d1e; /* Darker Background */
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #4db9f7; /* Blue Hover */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.entry {
+    border-bottom: 1px solid #333; /* Divider */
+    padding: 10px 0;
+}
+
+.entry h2 {
+    color: #3daee9; /* Blue Accent */
+    margin: 0;
+}
+
+.entry p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #252526; /* Darker Footer Background */
+    padding: 10px 20px;
+    border-top: 1px solid #333; /* Divider */
+    text-align: center;
+    color: #777; /* Secondary Text */
+}
