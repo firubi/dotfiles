@@ -36,3 +36,5 @@ You can configure virt-manager right through YaST and it will auto-configure its
  
 ### DONE
 Install your games, themes, customizations, whatever. 
+
+Install mouse-configuration and OpenRGB
