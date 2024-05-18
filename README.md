@@ -14,7 +14,7 @@ Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inser
      
 `sudo zypper in --no-recommends alacritty fastfetch dolphin qolibri`
 
-Make sure to import the EPWINGS and optionally the stylesheet to fit with KDE Plasma's Breeze theme.
+Make sure to import the EPWINGS and optionally the stylesheet to fit with KDE Plasma's Breeze theme (straight up used ChatGPT).
 
 2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers. Run `zypper addrepo --refresh https://download.nvidia.com/opensuse/tumbleweed NVIDIA` and then `sudo zypper install-new-recommends --repo NVIDIA`
 3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators) and Prism Launcher
