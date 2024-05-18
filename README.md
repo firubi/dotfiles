@@ -12,4 +12,5 @@ Pick the default KDE desktop environment. In the software selection, remove KDE 
 2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers
 3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game)
 4. Make sure flatpak is installed and install KeePassXC and Anki
-5. Import database and Anki addons
+5. Import database and Anki addons (found in SSD)
+6. Now install mpv (with yt-dlp) `sudo zypper in mpv` and import config
