@@ -4,8 +4,8 @@ Pick the default KDE desktop environment. In the software selection, remove KDE 
 `sudo zypper rm -u icewm xterm plasma6-desktop-emojier opensuse-welcome`
  
 
-### Setting up Firefox ###
-Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol). For japanese, you need to install the necessary fonts: `sudo zypper in google-noto-sans-jp-fonts`
+### Setting up Firefox and input methods ###
+Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol). For japanese, you need to install the necessary fonts: `sudo zypper in google-noto-sans-jp-fonts`. You'll need fcitx5 as well so run `sudo zypper in --no-recommends fcitx5 fcitx5-mozc kcm_fcitx5 fcitx5-configtool` and change the virtual keyboard in KDE system settings.
 
 ### Setting up the desktop, studying and gaming ###
 1. You'll need to enter tty (alternatively YaST) and install your preferred terminal emulator, etc:
