@@ -10,7 +10,7 @@ Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inser
 ### Setting up the desktop, studying and gaming ###
 1. You'll need to enter tty (alternatively YaST) and install your preferred terminal emulator, etc:
      
-`sudo zypper in --no-recommends alacritty fastfetch nemo qolibri`
+`sudo zypper in --no-recommends alacritty fastfetch dolphin qolibri`
 
 Make sure to import the EPWINGS
 
