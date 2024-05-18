@@ -5,7 +5,7 @@ Pick the default KDE desktop environment. In the software selection, remove KDE 
  
 
 ### Setting up Firefox ###
-Install the extenstions: uBlock, Yomichan, Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol)
+Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol)
 
 ### Setting up the desktop, studying and gaming ###
 1. You'll need to enter tty (alternatively YaST) and install your preferred terminal emulator, etc:
