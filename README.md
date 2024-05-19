@@ -21,8 +21,9 @@ Make sure to import the EPWINGS and optionally the stylesheet to fit with KDE Pl
 
 2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers. Run `zypper addrepo --refresh https://download.nvidia.com/opensuse/tumbleweed NVIDIA` and then `sudo zypper install-new-recommends --repo NVIDIA`
 3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators) and Prism Launcher and also ProtonUp-Qt for proton-ge
-4. Make sure flatpak is installed and install KeePassXC and Anki
-5. Import database and Anki addons (found in SSD)
+4. You'll also probably need gamemode and mangohud so run `sudo zypper in mangohud goverlay gamemode` if you want to be able to run gamemoderun and mangohud
+5. Make sure flatpak is installed and install KeePassXC and Anki
+6. Import database and Anki addons (found in SSD)
 7. Now install mpv (with yt-dlp) `sudo zypper in mpv` and import config
 8. Set up Kavita for Mangas: https://www.kavitareader.com/#downloads-v1-linux. You can create a shortcut too that launches the terminal (Kavita.desktop)
 9. Install other needed apps from flatpak like Obsidian (for medicine), qBittorrent, Discord/Vencord and possibly foobar2000 through WINE, and protonvpn-gui
