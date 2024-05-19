@@ -11,6 +11,8 @@ Install the extenstions: uBlock (recommended filters: https://github.com/yokoffi
 
 `sudo zypper in --no-recommends fcitx5-gtk2 fcitx5-gtk3 fcitx5-gtk4 fcitx5-qt5 fcitx5-qt6`
 
+For yomichan, this is how I like to prioritize them: ![image](https://github.com/firubi/dotfiles/assets/168989779/3c34bbc3-577a-4755-b683-d681320a19b8)
+
 
 ### Setting up the desktop, studying and gaming ###
 1. You'll need to enter tty (alternatively YaST) and install your preferred terminal emulator, etc:
