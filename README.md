@@ -20,7 +20,7 @@ Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inser
 Make sure to import the EPWINGS and optionally the stylesheet to fit with KDE Plasma's Breeze theme (straight up used ChatGPT).
 
 2. For nVidia users, install the drivers: https://en.opensuse.org/SDB:NVIDIA_drivers. Run `zypper addrepo --refresh https://download.nvidia.com/opensuse/tumbleweed NVIDIA` and then `sudo zypper install-new-recommends --repo NVIDIA`
-3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators) and Prism Launcher and also ProtonUp-Qt for proton-ge
+3. Let's set up the gaming. Run `sudo zypper in --no-recommends steam lutris wine` and make sure everything works (run a game). Also install Ryujinx (among other emulators), osu!lazer, Prism Launcher and also ProtonUp-Qt for proton-ge
 4. You'll also probably need gamemode and mangohud so run `sudo zypper in mangohud goverlay gamemode` if you want to be able to run gamemoderun and mangohud
 5. Make sure flatpak is installed and install KeePassXC and Anki
 6. Import database and Anki addons (found in SSD)
@@ -40,7 +40,10 @@ You can configure virt-manager right through YaST and it will auto-configure its
 
  
  
-### DONE
+### DONE ###
 Install your games, themes, customizations, whatever. 
 
 Install mouse-configuration and OpenRGB
+
+### Setting up awesomewm ###
+There's an annoying thing with openSUSE making you install programs that aren't needed, even with the --no-recommends argument. Taboo lightdm via YaST and then you can run `sudo zypper in awesome` to get a minimal install.
