@@ -7,7 +7,10 @@ Pick the default KDE desktop environment. In the software selection, remove KDE 
  You can uncheck the "install recommended packages" but you'll lose a lot of functionality in plasma.
 
 ### Setting up Firefox and input methods ###
-Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol). For japanese, you need to install the necessary fonts: `sudo zypper in google-noto-sans-jp-fonts`. You'll need fcitx5 as well so run `sudo zypper in --no-recommends fcitx5 fcitx5-mozc kcm_fcitx5 fcitx5-configtool` and change the virtual keyboard in KDE system settings.
+Install the extenstions: uBlock, Yomichan (and import settings), Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol). For japanese, you need to install the necessary fonts: `sudo zypper in google-noto-sans-jp-fonts`. You'll need fcitx5 as well so run `sudo zypper in --no-recommends fcitx5 fcitx5-mozc kcm_fcitx5 fcitx5-configtool` and change the virtual keyboard in KDE system settings. For fcitx5 to work with qolibri and other apps, you'll need some additional packages:
+
+`sudo zypper in --no-recommends fcitx5-gtk2 fcitx5-gtk3 fcitx5-gtk4 fcitx5-qt5 fcitx5-qt6`
+
 
 ### Setting up the desktop, studying and gaming ###
 1. You'll need to enter tty (alternatively YaST) and install your preferred terminal emulator, etc:
