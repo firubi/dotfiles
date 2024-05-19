@@ -44,6 +44,3 @@ You can configure virt-manager right through YaST and it will auto-configure its
 Install your games, themes, customizations, whatever. 
 
 Install mouse-configuration and OpenRGB
-
-### Setting up awesomewm ###
-There's an annoying thing with openSUSE making you install programs that aren't needed, even with the --no-recommends argument. Taboo lightdm via YaST and then you can run `sudo zypper in awesome` to get a minimal install.
