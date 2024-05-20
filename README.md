@@ -12,6 +12,7 @@ Install the extenstions: uBlock (recommended filters: https://github.com/yokoffi
 `sudo zypper in --no-recommends fcitx5-gtk2 fcitx5-gtk3 fcitx5-gtk4 fcitx5-qt5 fcitx5-qt6`
 
 For Yomichan, this is how I like to prioritize them: ![image](https://github.com/firubi/dotfiles/assets/168989779/3c34bbc3-577a-4755-b683-d681320a19b8)
+For qolibri, I like this priority: ![image](https://github.com/firubi/dotfiles/assets/168989779/65e776e4-8647-4e2f-af59-730df233b1b2)
 
 
 ### Setting up the desktop, studying and gaming ###
@@ -43,6 +44,6 @@ You can configure virt-manager right through YaST and it will auto-configure its
  
  
 ### Setting up BSPWM ###
-You'll need to install BSPWM and some other things: `sudo zypper in --no-recommends bspwm sxhkd rofi polybar nitrogen fontawesome-fonts symbols-only-nerd-fonts`, the fonts if you want to use special symbols. Make the bspwm and sxhkd directory in .config and move the dotfiles over. Make sure the bspwmrc is an executable `chmod +x ~/.config/bspwm/bspwmrc`. If you want notifications and blur, then you'll need picom and dunst: `sudo zypper in picom dunst`, and copy over the dotfiles.
+You'll need to install BSPWM and some other things: `sudo zypper in --no-recommends bspwm sxhkd rofi polybar nitrogen fontawesome-fonts symbols-only-nerd-fonts`, the fonts if you want to use special symbols. Make the bspwm and sxhkd directory in .config and move the dotfiles over. Make sure the bspwmrc is an executable `chmod +x ~/.config/bspwm/bspwmrc`. If you want notifications and blur, then you'll need picom and dunst: `sudo zypper in picom dunst libnotify-tools`, and copy over the dotfiles.
 
 For themes to work out properly, I found that installing qt5ct and qt6ct solves the issue (choose Custom), and putting `export QT_QPA_PLATFORMTHEME="qt5ct"` in my ~/.profile.
