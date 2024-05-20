@@ -1,5 +1,5 @@
 ### Minimal install of openSUSE ###
-Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC and VLC. After installation, run:
+Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled anyway when virtualizing) and VLC. After installation, run:
 
 `sudo zypper rm -u icewm xterm plasma6-desktop-emojier opensuse-welcome`
 
