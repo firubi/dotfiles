@@ -42,7 +42,5 @@ You can configure virt-manager right through YaST and it will auto-configure its
 
  
  
-### DONE ###
-Install your games, themes, customizations, whatever. 
-
-Install mouse-configuration and OpenRGB
+### Setting up BSPWM ###
+You'll need to install BSPWM and some other things: `sudo zypper in --no-recommends bspwm sxhkd rofi polybar nitrogen fontawesome-fonts symbols-only-nerd-fonts`, the fonts if you want to use special symbols. Make the bspwm and sxhkd directory in .config and move the dotfiles over. Make sure the bspwmrc is an executable `chmod +x ~/.config/bspwm/bspwmrc`.
