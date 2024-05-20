@@ -13,7 +13,8 @@ Install the extenstions: uBlock (recommended filters: https://github.com/yokoffi
 
 For Yomichan, this is how I like to prioritize them: ![image](https://github.com/firubi/dotfiles/assets/168989779/3c34bbc3-577a-4755-b683-d681320a19b8)
 
-For qolibri, I like this priority: ![image](https://github.com/firubi/dotfiles/assets/168989779/65e776e4-8647-4e2f-af59-730df233b1b2)
+For qolibri, I like this priority:
+![image](https://github.com/firubi/dotfiles/assets/168989779/65e776e4-8647-4e2f-af59-730df233b1b2)
 
 
 ### Setting up the desktop, studying and gaming ###
