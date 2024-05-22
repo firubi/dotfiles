@@ -44,6 +44,7 @@ https://github.com/themoeway/local-audio-yomichan
 ### Setting up virt-manager ###
 You can configure virt-manager right through YaST and it will auto-configure itself
 
+  ##### Shared folders #####
  
  
 ### Setting up BSPWM ###
