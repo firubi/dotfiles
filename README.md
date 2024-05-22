@@ -46,7 +46,9 @@ You can configure virt-manager right through YaST and it will auto-configure its
 
   ##### Shared folders #####
  
- 
+
+
+
 ### Setting up BSPWM ###
 You'll need to install BSPWM and some other things: `sudo zypper in --no-recommends bspwm sxhkd rofi polybar nitrogen xfce4-power-manager fontawesome-fonts symbols-only-nerd-fonts`, the fonts if you want to use special symbols. Make the bspwm and sxhkd directory in .config and move the dotfiles over. Make sure the bspwmrc is an executable `chmod +x ~/.config/bspwm/bspwmrc`. If you want notifications and blur, then you'll need picom and dunst: `sudo zypper in picom dunst libnotify-tools`, and copy over the dotfiles.
 
