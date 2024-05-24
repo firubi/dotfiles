@@ -1,3 +1,9 @@
+
+| Screenshots  |  |
+| ------------- | ------------- |
+| ![image](https://github.com/firubi/dotfiles/assets/168989779/58107ec0-d000-4a2e-b8cf-a77768628c33) | ![image](https://github.com/firubi/dotfiles/assets/168989779/669eac84-474a-4aaa-9780-5748358a704f)|
+
+
 ### Minimal install of openSUSE ###
 Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled anyway when virtualizing) and VLC. After installation, run:
 
