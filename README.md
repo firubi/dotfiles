@@ -2,7 +2,7 @@
 | Screenshots  | Screenshots |
 | ------------- | ------------- |
 | ![image](https://github.com/firubi/dotfiles/assets/168989779/58107ec0-d000-4a2e-b8cf-a77768628c33) | ![image](https://github.com/firubi/dotfiles/assets/168989779/669eac84-474a-4aaa-9780-5748358a704f)|
-|  |  |
+| ![image](https://github.com/firubi/dotfiles/assets/168989779/b2dd9dc7-4fba-496b-af1e-1db0c6751a57) | ![image](https://github.com/firubi/dotfiles/assets/168989779/87f34231-3be1-46fe-ace6-f3b78ae4e310) |
 
 
 
