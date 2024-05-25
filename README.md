@@ -5,7 +5,7 @@
 | ![image](https://github.com/firubi/dotfiles/assets/168989779/b2dd9dc7-4fba-496b-af1e-1db0c6751a57) | ![image](https://github.com/firubi/dotfiles/assets/168989779/87f34231-3be1-46fe-ace6-f3b78ae4e310) |
 
 
-
+Most of the time, the --no-recommends options isn't too useful as on many system updates, the recommended packages will be reinstalled anyway. You may just install programs without the option. 
 
 ### Minimal install of openSUSE ###
 Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled anyway when virtualizing) and VLC. After installation, run:
