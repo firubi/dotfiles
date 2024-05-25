@@ -51,7 +51,18 @@ https://github.com/themoeway/local-audio-yomichan
 You can configure virt-manager right through YaST and it will auto-configure itself
 
   ##### Shared folders #####
+ Enable shared memory 
  
+![image](https://github.com/firubi/dotfiles/assets/168989779/440e7774-e705-45ab-b0ac-4bb98bd1661b)
+
+
+
+
+ Add new hardware "Filesysytem" and use these settings: 
+ 
+![image](https://github.com/firubi/dotfiles/assets/168989779/8188b71c-b7ea-4a8b-b390-56180a69115b)
+
+ The source path could be something like `/home/firubi/Documents/Virtmanager-shared-folder`. Enter the virtual machine and make a directory to mount to, for example `mkdir ~/Documents/Shared-folder` and then mount it `sudo mount -t virtiofs shared ~/Documents/Shared-folder`
 
 
 
