@@ -62,7 +62,7 @@ You can configure virt-manager right through YaST and it will auto-configure its
  
 ![image](https://github.com/firubi/dotfiles/assets/168989779/8188b71c-b7ea-4a8b-b390-56180a69115b)
 
- The source path could be something like `/home/firubi/Documents/Virtmanager-shared-folder`. Enter the virtual machine and make a directory to mount to, for example `mkdir ~/Documents/Shared-folder` and then mount it `sudo mount -t virtiofs shared ~/Documents/Shared-folder`
+ The source path could be something like `/home/firubi/Documents/Virtmanager-shared-folder`. Enter the virtual machine and make a directory to mount to, for example `mkdir ~/Documents/Shared-folder` and then mount it `sudo mount -t virtiofs shared ~/Documents/Shared-folder`. If you want to be able to put something in from guest, then change the folder's permission.
 
 
 
