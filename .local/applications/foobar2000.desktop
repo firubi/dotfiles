@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=2.0
+Name=foobar2000
+Comment=MusicPlayer
+Exec=wine /home/firubi/Desktop/foobar2000/foobar2000.exe
+Icon=/home/firubi/Desktop/foobar2000/foobar2000.png
+Terminal=false
+Type=Application
+Categories=Application;Multimedia

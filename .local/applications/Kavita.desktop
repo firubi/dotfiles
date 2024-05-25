@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.8.1
+Name=Kavita
+Comment=MangaReader
+Exec=cd /home/firubi/Documents/Kavita ; sudo ./Kavita
+Icon=/home/firubi/Documents/Kavita/wwwroot/assets/images/kavita-book-cropped.png
+Terminal=true
+Type=Application
+Categories=Application;Office;Education
