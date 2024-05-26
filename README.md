@@ -43,7 +43,8 @@ Make sure to import the EPWINGS and optionally the stylesheet to fit with KDE Pl
 8. Set up Kavita for Mangas: https://www.kavitareader.com/#downloads-v1-linux. You can create a shortcut too that launches the terminal (Kavita.desktop), however this requires konsole (it's just 3 packages anyway)
 9. Install other needed apps from flatpak like Obsidian (for medicine), qBittorrent, Discord/Vencord and possibly foobar2000 through WINE, and protonvpn-gui
 
-  
+#### Motion controls ####
+To get motion controls working on nintendo pro controllers / joy-cons, you'll need a few apps. Firstly you need joycond which is in the official repositories `sudo zypper in joycond`. Motion control works now, but for the pro controller it will be "sideways". To get it straight, you can use joycond-cemuhook (https://github.com/joaorb64/joycond-cemuhook). Clone it in a folder (for me ~/Downloads/gitclone) and then to execute `sudo python3 joycond-cemuhook/src/joycond_cemuhook`. I personally launch it by typing in gyro that is an alias for `sudo python3 ~/Downloads/gitclone/joycond-cemuhook/src/joycond_cemuhook`.
  
 ### Setting up audio server for Anki ###
 https://github.com/themoeway/local-audio-yomichan
