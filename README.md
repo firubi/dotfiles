@@ -66,8 +66,9 @@ You can configure virt-manager right through YaST and it will auto-configure its
  
 ![image](https://github.com/firubi/dotfiles/assets/168989779/8188b71c-b7ea-4a8b-b390-56180a69115b)
 
- The source path could be something like `/home/firubi/Documents/virtmanager-shared-folder/Fedora`. Enter the virtual machine and make a directory to mount to, for example `mkdir ~/Documents/Shared-folder` and then mount it `sudo mount -t virtiofs shared ~/Documents/Shared-folder`. If you want to be able to put something in from guest, then change the folder's permission. To mount on boot, add in your fstab `shared   /home/firubi/Documents/Shared-folder       virtiofs        defaults        0       0`
-
+ The source path could be something like `/home/firubi/Documents/virtmanager-shared-folder/Fedora`. Enter the virtual machine and make a directory to mount to, for example `mkdir ~/Documents/Shared-folder` and then mount it `sudo mount -t virtiofs shared ~/Documents/Shared-folder`. If you want to be able to put something in from guest, then change the folder's permission. To mount on boot, add in your fstab `shared   /home/firubi/Documents/Shared-folder       virtiofs        defaults        0       0`. (Swap "Fedora" with whatever you want)
+ 
+For a Windows guest, follow these instructions: https://www.debugpoint.com/kvm-share-folder-windows-guest/
 
 
 ### Setting up BSPWM ###
