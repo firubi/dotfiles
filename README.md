@@ -7,10 +7,10 @@
 
 Most of the time, the --no-recommends options isn't too useful as on many system updates, the recommended packages will be reinstalled anyway. You may just install programs without the option. 
 
-### Minimal install of openSUSE ###
-Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled anyway when virtualizing) and VLC. After installation, run:
+### Kind of minimal install of openSUSE ###
+Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled if you want to use virtualizing) and VLC. After installation, run:
 
-`sudo zypper rm -u icewm xterm plasma6-desktop-emojier opensuse-welcome`
+`sudo zypper rm -u icewm xterm plasma6-desktop-emojier opensuse-welcome`, and taboo plasma6-desktop-emojier in YaST after.
 
 
  You can uncheck the "install recommended packages" but you'll lose a lot of functionality in plasma.
