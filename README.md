@@ -1,8 +1,4 @@
 
-| Screenshots  | Screenshots |
-| ------------- | ------------- |
-| ![image](https://github.com/firubi/dotfiles/assets/168989779/58107ec0-d000-4a2e-b8cf-a77768628c33) | ![image](https://github.com/firubi/dotfiles/assets/168989779/669eac84-474a-4aaa-9780-5748358a704f)|
-| ![image](https://github.com/firubi/dotfiles/assets/168989779/b2dd9dc7-4fba-496b-af1e-1db0c6751a57) | ![image](https://github.com/firubi/dotfiles/assets/168989779/87f34231-3be1-46fe-ace6-f3b78ae4e310) |
 
 
 Most of the time, the --no-recommends options isn't too useful as on many system updates, the recommended packages will be reinstalled anyway. You may just install programs without the option. 
@@ -72,6 +68,11 @@ For a Windows guest, follow these instructions: https://www.debugpoint.com/kvm-s
 
 
 ### Setting up BSPWM ###
+| Screenshots  | Screenshots |
+| ------------- | ------------- |
+| ![image](https://github.com/firubi/dotfiles/assets/168989779/58107ec0-d000-4a2e-b8cf-a77768628c33) | ![image](https://github.com/firubi/dotfiles/assets/168989779/669eac84-474a-4aaa-9780-5748358a704f)|
+| ![image](https://github.com/firubi/dotfiles/assets/168989779/b2dd9dc7-4fba-496b-af1e-1db0c6751a57) | ![image](https://github.com/firubi/dotfiles/assets/168989779/87f34231-3be1-46fe-ace6-f3b78ae4e310) |
+
 You'll need to install BSPWM and some other things: `sudo zypper in --no-recommends bspwm sxhkd rofi polybar nitrogen xfce4-power-manager fontawesome-fonts symbols-only-nerd-fonts`, the fonts if you want to use special symbols. Make the bspwm and sxhkd directory in .config and move the dotfiles over. Make sure the bspwmrc is an executable `chmod +x ~/.config/bspwm/bspwmrc`. If you want notifications and blur, then you'll need picom and dunst: `sudo zypper in picom dunst libnotify-tools`, and copy over the dotfiles.  I like to use pavucontrol for the audio module: `sudo zypper in pavucontrol`.
 
 For themes to work out properly, I found that installing qt5ct and qt6ct solves the issue (choose Custom), and putting `export QT_QPA_PLATFORMTHEME="qt5ct"` in my ~/.profile (or bspwmrc to not interfere with plasma).
