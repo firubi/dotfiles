@@ -1,8 +1,7 @@
 ### Kind of minimal install of openSUSE ###
 Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled if you want to use virtualizing) and VLC. After installation, run:
 
-`sudo zypper rm -u icewm xterm opensuse-welcome`, and taboo plasma6-desktop-emojier in YaST after.
-
+`sudo zypper rm -u icewm xterm opensuse-welcome`
 
  You can uncheck the "install recommended packages" but you'll lose a lot of functionality in plasma.
 
