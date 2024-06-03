@@ -6,4 +6,4 @@ Exec=wine /home/firubi/Desktop/foobar2000/foobar2000.exe
 Icon=/home/firubi/Desktop/foobar2000/foobar2000.png
 Terminal=false
 Type=Application
-Categories=Application;Multimedia
+Categories=AudioVideo;Audio;
