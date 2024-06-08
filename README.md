@@ -1,9 +1,9 @@
 ### Kind of minimal install of openSUSE ###
-Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled if you want to use virtualizing) and VLC. After installation, run:
+Pick the default KDE desktop environment. In the software selection, remove KDE apps (except Discover), TigerVNC (will be reinstalled if you want to use virtualizing) and VLC. After installation, you may want to remove icewm, and probably also the welcome app etc. so run:
 
-`sudo zypper rm -u icewm xterm opensuse-welcome`
+`sudo zypper rm -u icewm opensuse-welcome plasma6-desktop-emojier`
 
- You can uncheck the "install recommended packages" but you'll lose a lot of functionality in plasma.
+Sometimes, opensuse-welcome and plasma6-desktop-emojier will be reinstalled on system updates, but you can taboo it in YaST so it won't be reinstalled
 
 ### Setting up Firefox and input methods ###
 Install the extenstions: uBlock (recommended filters: https://github.com/yokoffing/filterlists#guidelines), Yomichan (and import settings), Clipboard inserter, Return YouTube Dislikes and 7TV for twitch enjoyment (lol). For japanese, you need to install the necessary fonts: `sudo zypper in google-noto-sans-jp-fonts`. You'll need fcitx5 as well so run `sudo zypper in fcitx5 fcitx5-mozc kcm_fcitx5 fcitx5-configtool` and change the virtual keyboard in KDE system settings. For fcitx5 to work with qolibri and other Qt/GTK apps, you'll need some additional packages:
