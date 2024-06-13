@@ -6,7 +6,7 @@
   "logo": {
     "source": "~/.config/fastfetch/logo",
     "color": {
-      "1": "yellow"
+      "1": "green"
     },
     "type": "file",
     "padding": {
