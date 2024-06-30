@@ -1,0 +1,143 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 34, // Waybar height (to be removed for auto height)
+
+    "modules-left": ["hyprland/workspaces", "custom/applauncher", "hyprland/window"],
+    "modules-center": ["clock", "custom/hyprshot"],
+    "modules-right": ["tray", "custom/zypper", "network", "bluetooth", "cpu", "memory", "pulseaudio", "custom/notification", "custom/powermenu"],
+
+    "custom/applauncher": {
+        "format": "アプリ",
+        "on-click": "~/.config/rofi/launchers/type-1/launcher.sh",
+    },
+
+    "custom/hyprshot": {
+        "format": "",
+        "on-click": "hyprshot -m region -o ~/Pictures/Screenshots/",
+        "on-click-right": "hyprshot -m output -o ~/Pictures/Screenshots/"
+    },
+
+    "custom/powermenu": {
+        "format": "",
+        "on-click": "~/.config/rofi/powermenu/type-1/powermenu.sh",
+    },
+
+
+    "custom/zypper": {
+        "format": "{} ",
+        "interval": 3600,
+        "exec": "zypper lu | grep 'v |' | wc -l; echo 'packages to update'",
+        "exec-if": "exit 0",
+        "on-click": "exec alacritty -e sudo sh -c 'zypper ref; zypper dup; pkill -SIGRTMIN+8 waybar'",
+        "signal": 8
+    },
+
+
+    "clock": {
+        "format-alt": " {:%b %d %Y %R}",
+        "format": "{:%a %d %b Week: %V %H:%M}",
+        "tooltip-format": "<span color='#35b9ab'><tt><small>{calendar}</small></tt></span>",
+        "calendar": {
+            "mode-mon-col"      : 4,
+            "weeks-pos"         : "left",
+            "on-scroll"         : 1,
+            "on-click-right"    : "mode",
+            "format": {
+                "months":    "<span color='#35b9ab'><b>{}</b></span>",
+                "weeks":    "<span color='#73ba25'><b>{}</b></span>",
+                "weekdays": "<span color='#21a4df'><b>{}</b></span>",
+                "today":    "<span color='#21a4df'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions": {
+            "on-click-right"    : "mode",
+            "on-scroll-up"      : "shift_up",
+            "on-scroll-down"      : "shift_down"
+        },
+        "interval": 10
+    },
+
+
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+
+
+    "memory": {
+        "format": "{}% "
+    },
+
+
+
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "",
+        "format-ethernet": "",
+        "format-linked": "",
+        "format-disconnected": "⚠",
+        "format-alt": "{ifname} {essid} ({signalStrength}%)"
+    },
+
+
+    "bluetooth": {
+	"format": "",
+	"format-disabled": " OFF",
+	"format-off": " OFF",
+	// "format-connected": " {num_connections}",
+	"format-connected": " {device_alias}",
+	"tooltip-format": "{controller_address} {status}\n\n{num_connections} connected",
+	"tooltip-format-disabled": "{status}",
+	"tooltip-format-connected": "{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+	"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+	// "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+	"on-click": "/home/firubi/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh --toggle &",
+	"on-click-right": "systemsettings"
+    },
+
+
+    "pulseaudio": {
+        "format": "{icon} {volume}％",
+        "format-alt": "{volume}% {icon}",
+        "format-alt-click": "click-right",
+        "format-muted": "ミュート",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "scroll-step": 2,
+        "on-click": "~/.config/hypr/scripts/Volume.sh --toggle",
+        "on-click-right": "pavucontrol",
+        "on-scroll-up": "~/.config/hypr/scripts/Volume.sh --inc",
+        "on-scroll-down": "~/.config/hypr/scripts/Volume.sh --dec",
+        "tooltip": false
+    },
+
+
+    "custom/notification": {
+	"tooltip": true,
+	"format": "{icon}",
+	"format-icons": {
+	     "notification": "<span foreground='red'><small><sup>⬤</sup></small></span>",
+	     "none": " ",
+	     "dnd-notification": "<span foreground='red'><small><sup>⬤</sup></small></span>",
+	     "dnd-none": " "
+	},
+	"return-type": "json",
+	"exec-if": "which swaync-client",
+	"exec": "swaync-client -swb",
+	"on-click": "swaync-client -t -sw",
+	"on-click-right": "swaync-client -d -sw",
+	"escape": true
+   }
+
+
+}
