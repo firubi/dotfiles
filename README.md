@@ -79,5 +79,8 @@ Install all the themes from this https://github.com/adi1090x/rofi. Import the co
 
 ### Setting up Hyprland ###
 Firstly, I'd recommend tabooing sway, kanshi and grim in YaST (as they are recommended packages). Then install packages: `sudo zypper in --no-recommends hyprland waybar swww`. For the rofi menu to work for logout, you need to, in powermenu.sh, add the line
-```elif [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then```
-```     hyprctl dispatch exit```
+
+```
+elif [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
+     hyprctl dispatch exit
+```
