@@ -78,9 +78,16 @@ This is not needed when using KDE as it is its own option in the setting, but it
 Install all the themes from this https://github.com/adi1090x/rofi. Import the color themes black.rasi and the type-1 launcher.sh and the type-1 powermenu.sh (gives black and red colors). For lockscreen to work, it requires i3-lock (which I won't bother compiling)
 
 ### Setting up Hyprland ###
-Firstly, I'd recommend tabooing sway, kanshi and grim in YaST (as they are recommended packages). Then install packages: `sudo zypper in --no-recommends hyprland waybar swww`. For the rofi menu to work for logout, you need to, in powermenu.sh, add the line
+Firstly, I'd recommend tabooing sway, kanshi and grim in YaST (as they are recommended packages). Then install packages: `sudo zypper in --no-recommends hyprland waybar swww`. For the rofi menu to work for logout, you need to, in powermenu.sh, add the line:
 
 ```
 elif [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
      hyprctl dispatch exit
 ```
+
+Then import the necessary config files for waybar and Hyprland.
+
+| Screenshots  | Screenshots |
+| ------------- | ------------- |
+|  | |
+|  | |
