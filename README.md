@@ -89,8 +89,6 @@ Then import the necessary config files for waybar and Hyprland.
 
 | Screenshots  | Screenshots |
 | ------------- | ------------- |
-| ![image](https://github.com/firubi/dotfiles/assets/168989779/78c06fa9-d9be-440f-a92c-38acdaac8818)
- | ![image](https://github.com/firubi/dotfiles/assets/168989779/a64d4c46-1477-4006-8b3e-463fcbaab535)
-|
-
-|  | |
+| ![image](https://github.com/firubi/dotfiles/assets/168989779/78c06fa9-d9be-440f-a92c-38acdaac8818)| ![image](https://github.com/firubi/dotfiles/assets/168989779/a64d4c46-1477-4006-8b3e-463fcbaab535)|
+| ![image](https://github.com/firubi/dotfiles/assets/168989779/1db5cc3b-4016-4802-b707-1c95e550379e) | ![image](https://github.com/firubi/dotfiles/assets/168989779/1d005b77-367c-4b4b-817d-e0b4b13b55e8)
+ |
