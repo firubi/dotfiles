@@ -9,7 +9,7 @@
 
     "custom/applauncher": {
         "format": "アプリ",
-        "on-click": "~/.config/rofi/launchers/type-1/launcher.sh",
+        "on-click": "wofi",
     },
 
     "custom/hyprshot": {
@@ -20,7 +20,7 @@
 
     "custom/powermenu": {
         "format": "",
-        "on-click": "~/.config/rofi/powermenu/type-1/powermenu.sh",
+        "on-click": "~/.config/wofi/scripts/wofi-power.sh",
     },
 
 
