@@ -75,7 +75,7 @@ For themes to work out properly, I found that installing qt5ct and qt6ct solves 
 This is not needed when using KDE as it is its own option in the setting, but it doesn't carry over to bspwm. To disable, first find the device ID, `sudo zypper in xinput` and then run xinput. For the Logitech Superlight you only need to look at "Logitech USB Receiver". Then type `xinput set-prop "deviceid" "libinput Accel Profile Enabled" 0 1 0`. Confirm with `xinput list-props "deviceid"`. In /usr/share/X11/xorg.conf.d/40-libinput.conf, add the line `Option "AccelProfile" "flat"` in the section with the identifier `Identifier "libinput pointer catchall"`. (Essentially the same as Section 1 in https://wiki.archlinux.org/title/Mouse_acceleration). You might as well install a mouse configuration app as well, the easiest to use is solaar `sudo zypper in solaar`.
 
 ##### Rofi and power menu #####
-Install all the themes from this https://github.com/adi1090x/rofi. Import the color themes black.rasi and the type-1 launcher.sh and the type-1 powermenu.sh (gives black and red colors). For lockscreen to work, it requires i3-lock (which I won't bother compiling)
+Install all the themes from this https://github.com/adi1090x/rofi. Import the color themes black.rasi and the type-1 launcher.sh and the type-1 powermenu.sh (gives black and red colors). For lockscreen to work, it requires i3-lock (which I won't bother compiling).
 
 ### Setting up Hyprland ###
 Firstly, I'd recommend tabooing sway in YaST (as they are recommended packages). Then install packages: `sudo zypper in --no-recommends hyprland waybar swww swaync hyprshot wofi`. 
@@ -84,5 +84,4 @@ Then import the necessary config files for Waybar, wofi and Hyprland.
 | Screenshots  | Screenshots |
 | ------------- | ------------- |
 | ![image](https://github.com/firubi/dotfiles/assets/168989779/78c06fa9-d9be-440f-a92c-38acdaac8818)| ![image](https://github.com/firubi/dotfiles/assets/168989779/a64d4c46-1477-4006-8b3e-463fcbaab535)|
-| ![image](https://github.com/firubi/dotfiles/assets/168989779/1db5cc3b-4016-4802-b707-1c95e550379e) | ![image](https://github.com/firubi/dotfiles/assets/168989779/1d005b77-367c-4b4b-817d-e0b4b13b55e8)
- |
+| ![image](https://github.com/firubi/dotfiles/assets/168989779/1db5cc3b-4016-4802-b707-1c95e550379e) | ![image](https://github.com/firubi/dotfiles/assets/168989779/1d005b77-367c-4b4b-817d-e0b4b13b55e8) |
