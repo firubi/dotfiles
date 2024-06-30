@@ -95,7 +95,7 @@
 	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
 	// "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
 	"on-click": "/home/firubi/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh --toggle &",
-	"on-click-right": "systemsettings"
+	"on-click-right": "systemsettings kcm_bluetooth"
     },
 
 
